@@ -1,0 +1,70 @@
+@keyframes example {
+0%     {  top: 0px;
+         left: 0px;  }
+8%     {  top: -25px;
+         left: 16px;  }
+
+16%     {  top: -43px;
+         left: 32px;  }
+
+25%     {  top: -50px;
+         left: 50px;  }
+
+33%     {  top: -43px;
+         left: 66px;  }
+
+41%     {  top: -25px;
+         left: 82px;  }
+
+50%     {  top: 0px;
+         left: 100px;  }
+
+58%     {  top: -25px;
+         left: 116px;  }
+
+66%     {  top: -43px;
+         left: 132px;  }
+
+75%     {  top: -50px;
+         left: 150px;  }
+
+83%     {  top: -43px;
+         left: 166px;  }
+
+91%     {  top: -25px;
+         left: 182px;  }
+
+100%     {  top: 0px;
+         left: 200px;  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img#bunny {
+		position:relative;
+		width:100px;
+		height:100px;
+		animation-timing-function: linear;		
+		animation-name: example;
+		animation-duration: 3s;
+		animation-fill-mode: forwards;
+		animation-iteration-count: infinite;
+	}
+	
+img#grass { 
+		position: relative;
+		left:     90px;
+		width:    150px;
+		height:   150px;
+	}
