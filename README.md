@@ -4,7 +4,7 @@ Brought to you Asheton Cady
 <<<<<<< HEAD
 
 =======
-This is Marlon
+This is Marlon(hey boo hmu its MC @911)
 Hello this is prerich
->>>>>>> b973446da881c2658f75ea972d09b1315538cf66
+Hey whats up giuys YESSSSSS
 
