@@ -1,1 +1,81 @@
 /* style for scene 3 */
+#sky {
+	position: absolute;
+	z-index: -4;
+	background-color: cornflowerblue;
+	width: 99%;
+	height: 650px;
+}
+
+
+#hansel{
+	width: 500px;
+  	margin: 0;
+  	position: absolute;
+  	top: 50%;
+	left: 50%;
+  	transform: translate(-75%, -25%);
+	animation: hMoves 1s ease-out 1.5s;
+}
+
+@keyFrames hMoves {
+
+	100% {transform: translate(-90%,-25%) scale(2,1.25)}
+}
+
+
+#house3 {
+	position: absolute;
+	margin: 0;
+	z-index: -1;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+	transform: translate(-50%, -50%);
+
+	
+}
+
+#grettel {
+	width: 500px;
+ 	margin: 0;
+  	position: absolute;
+  	top: 50%;
+	left: 50%;
+  	transform: translate(-25%, -75%);
+	z-index: -2;
+	animation: gMoves 1s ease-out 1.5s ;
+}
+
+@keyframes gMoves {
+
+	100%{transform: translate(5%, -90%) scale(2,1.15)}
+	
+	
+}
+
+#witch{
+	position: absolute;
+	width: 250px;
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+	left: 50%;
+  	transform:translate(-250%, -100%)rotateZ(90deg);
+	animation: wMoves 1s ease-out 1.5s;
+}
+@keyframes wMoves {
+	100%{transform: translate(-125%, -100%) rotateZ(90deg)}
+	
+	
+}
+
+
+#ground {
+	position: absolute;
+	z-index: -5;
+	background-color:forestgreen;
+	width: 99%;
+	height: 900px;
+	
+}
