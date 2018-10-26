@@ -1,0 +1,34 @@
+#Hansel, #Witch, #Grettel, #Firehouse {
+    position:absolute;
+}
+
+#Hansel {
+    animation-name: Hansel;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform: translate(20%,20%);   
+}
+
+
+@keyframes Hansel {
+    0%  { left:0px; top: 0px;}
+    25% { left:200px; top:0px;}
+}
+    
+#Grettel {
+    animation-name: Grettel;
+    animation-duration: 4s;
+    animation-interaction-count: infinite;
+    transform: translate(-25%,200%);
+ }
+
+
+@keyframes Grettel{
+    0% { left:0px; top:0px;}
+    25% { left:200px; top:0px;}
+}
+
+#Witch {
+    
+    transform: scale(.50);
+}
