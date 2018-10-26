@@ -1,0 +1,31 @@
+#Hansel {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    animation-name: Hansel;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+    transform: translate(-100%,200%);   
+}
+
+
+@keyframes Hansel{
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+}
+
+#Grettel {
+    width: 400px;
+    height:400px;
+    position: relative;
+    animation-name: Grettel;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+    transform: translate(-25%,200%);   
+}
+
+
+@keyframes Grettel{
+    0%   { left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+}
