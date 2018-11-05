@@ -12,6 +12,11 @@
 	<p>Hansel and Grettel are eating the house, while the Witch watches them high in the sky</p>
 	<div id="sky"> </div>
 	<div id="ground"></div>
+	
+	<a href="Scene4.html">
+	<img src="next.png" id="next"> 
+	</a>
+	<img src="cloud.png" id="cloud" onCLick="refresh()"> 
 	<img src="Hansel.png" id="hansel"> 
 	
 	<img src="houseEaten.png" id="house3">
@@ -20,7 +25,12 @@
 	
 	<img src="Witch.png" id="witch"> 
 	
-<script></script>
+<script>
+function refresh() {
+	location.reload();
+}	
+	
+</script>
 	
 </body>
 </html>
